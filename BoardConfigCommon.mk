@@ -29,7 +29,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 # TARGET_KERNEL_HAVE_EXFAT := true
 
-# TARGET_USES_MKE2FS := true
+TARGET_USES_MKE2FS := true
 
 # Kernel Stuff
 TARGET_KERNEL_SOURCE := kernel/mediatek/sprout
