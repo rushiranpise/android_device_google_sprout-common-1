@@ -101,6 +101,13 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     tinymix
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.device@1.0-impl \
+    camera.device@3.2-impl \
+    camera.device@3.3-impl \
+    android.hardware.camera.provider@2.4-impl
+
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadioGoogle \
