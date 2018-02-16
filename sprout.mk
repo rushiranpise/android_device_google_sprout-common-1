@@ -126,6 +126,10 @@ PRODUCT_COPY_FILES += \
  PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl
+
 # Power
 PRODUCT_PACKAGES += \
      android.hardware.power@1.0-impl
