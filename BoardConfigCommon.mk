@@ -102,13 +102,6 @@ EXTENDED_FONT_FOOTPRINT := true
 # System Properties
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
-# Custom RIL Class
-BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril/
-
-# Neon Flags
-TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-
 # Camera
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 USE_CAMERA_STUB := true
