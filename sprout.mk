@@ -126,6 +126,10 @@ PRODUCT_COPY_FILES += \
  PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl
 
+# Power
+PRODUCT_PACKAGES += \
+     android.hardware.power@1.0-impl
+
 # USB
 PRODUCT_PACKAGES += \
     librs_jni \
