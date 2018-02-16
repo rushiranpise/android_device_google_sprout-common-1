@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
     librs_jni \
     com.android.future.usb.accessory
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl
+
 # Charger
 PRODUCT_PACKAGES += \
     charger \
