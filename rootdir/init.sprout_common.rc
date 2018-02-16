@@ -202,11 +202,13 @@ on post-fs-data
     chmod 0660 /sys/class/misc/m_acc_misc/accbatch
     chmod 0660 /sys/class/misc/m_acc_misc/accflush
     chmod 0660 /sys/class/misc/m_acc_misc/smactive
+    chmod 0660 /sys/class/misc/m_acc_misc/accdevnum
     chown system system /sys/class/misc/m_acc_misc/accenablenodata
     chown system system /sys/class/misc/m_acc_misc/accactive
     chown system system /sys/class/misc/m_acc_misc/accdelay
     chown system system /sys/class/misc/m_acc_misc/accbatch
     chown system system /sys/class/misc/m_acc_misc/accflush
+    chown system system /sys/class/misc/m_acc_misc/accdevnum
     chown system system /sys/class/misc/m_acc_misc/smactive
     chmod 0660 /sys/class/misc/m_mag_misc/magactive
     chmod 0660 /sys/class/misc/m_mag_misc/magdelay
