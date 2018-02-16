@@ -122,6 +122,10 @@ PRODUCT_COPY_FILES += \
     android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.mapper@2.0-impl
 
+# Memtrack
+ PRODUCT_PACKAGES += \
+    android.hardware.memtrack@1.0-impl
+
 # USB
 PRODUCT_PACKAGES += \
     librs_jni \
