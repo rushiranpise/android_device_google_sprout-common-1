@@ -8,25 +8,19 @@
 #include <netpacket/packet.h>
 #include <linux/filter.h>
 #include <linux/errqueue.h>
-
 #include <linux/pkt_sched.h>
 #include <netlink/object-api.h>
 #include <netlink/netlink.h>
 #include <netlink/socket.h>
-//#include <netlink-types.h>
-
 #include "nl80211_copy.h"
 #include "sync.h"
 
 #define LOG_TAG  "WifiHAL"
 
 #include <utils/Log.h>
-
 #include "wifi_hal.h"
 #include "common.h"
 #include "cpp_bindings.h"
-
-using namespace android;
 
 typedef enum {
     WIFI_OFFLOAD_START_MKEEP_ALIVE = ANDROID_NL80211_SUBCMD_WIFI_OFFLOAD_RANGE_START,
